@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 페이지</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="links"> <!-- 최 상단 -->
+        <a href="./html/login.html">로그인</a>
+        <a href="./html/register.html">회원가입</a>
+    </div><br>
+    <hr>
+    <header>
+        <div class="header_img">
+            <a href="main.html"><img src="img/school_logo.png" alt="학교로고" width="128.64" height="123"></a>
+        </div>
+        <div class="header_text">
+            경북소프트웨어 고등학교<br> 도서관리 사이트
+        </div>
+        <nav class="header_nav">   
+            <ul>
+                <li><a href="searchBook.html">도서검색</a></li>
+                <li><a>이용안내</a></li>
+                <li><a>도서행사</a></li>
+                <li><a>나의 도서관</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <nav>
+        <div class="info"></div>
+    </nav>
+    <main>
+        <aside><!-- 사이드 목록 -->
+            <nav class="side_nav">
+                <ul>
+                    <li class="first">회원관련</li>
+                    <li>로그인</li>
+                    <li>회원가입</li>
+                    <li>아이디 찾기</li>
+                    <li>비밀번호 찾기</li>
+                </ul>
+            </nav>
+        </aside>
+        <section> <!--- 로그인 page main-->
+                <article><!-- 현제 위치 출력-->
+                    <div>
+                        <p>로그인</p>
+                        <p>홈 > 회원관련 > 로그인</p>
+                    </div>
+                    <div class="input_user_info">
+                    <form>
+                        <input type="text" placeholder="아이디" name="user_id"><br>
+                        <input type="password" placeholder="비밀번호" name="user_password">
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

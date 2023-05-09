@@ -1,0 +1,74 @@
+*
+{
+    font-family: AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
+    text-decoration: none;
+}
+header
+{
+    height: 130px;
+    width: auto;
+    position: relative;
+}
+
+.links 
+{
+    margin-right: 20px;
+    float: right;
+}
+
+.header_img
+{
+    float: left;
+}
+.header_text
+{
+    margin-top: 40px;
+    margin-left: 175px;
+    font-size: 2.1rem;
+}
+.header_nav
+{
+    top: 5px;
+    position: relative;
+}
+.header_nav > ul
+{
+    float: right;
+    list-style: none;
+}
+.header_nav >ul > li
+{
+    margin-right: 15px;
+    float: left;
+    font-size: 20px;
+}
+
+.side_nav
+{
+    margin: -10px 0px 0px 5rem;
+    width: 200px;
+    border : solid 1px black;
+    display : table;
+    border-collapse: collapse;
+
+}
+.side_nav > ul
+{
+    top: -16px;
+    padding-left: 0;
+    position: relative;
+    list-style-type: none;
+}
+.side_nav > ul > li
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.side_nav > ul .first
+{
+    text-align: center;
+    line-height : 100px;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(16,112,181);
+} 

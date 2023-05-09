@@ -1,0 +1,53 @@
+*{
+  font-family: AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
+  text-decoration: none;
+}
+.simple_box{
+  text-align:right;
+  padding-right: 1.5rem;
+}
+.logo_box{
+  display: flex;
+  align-items: center;
+}
+.school{
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 450;
+}
+.menu{
+  text-align: right;
+  padding-right: 1.5rem;
+  font-size: 1rem;
+}
+.wonder{
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+.book_wonder{
+  text-align: center;
+  width:800px;
+  height:50px; 
+  border-radius: 25px;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+.publisher{
+  width:200px;
+  height:23px;
+  margin-right: 50px;
+  border-radius: 25px;
+}
+.writer{
+  width:200px;
+  height:23px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+.submit{
+  width: 130px;
+  height: 50px;
+  font-size: 20px;
+}
