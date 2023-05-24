@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>로그인 페이지</title>
+    <title>로그인</title>
     <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
-    <div class="links"> <!-- 최 상단 -->
-        <a href="./html/login.html">로그인</a>
-        <a href="./html/register.html">회원가입</a>
+    <div id="links"> <!-- 최 상단 -->
+        <a href="login.html">로그인</a>
+        <a href="register.html">회원가입</a>
     </div><br>
     <hr>
     <header>
-        <div class="header_img">
+        <div id="header_img">
             <a href="main.html"><img src="img/school_logo.png" alt="학교로고" width="128.64" height="123"></a>
         </div>
-        <div class="header_text">
+        <div id="header_text">
             경북소프트웨어 고등학교<br> 도서관리 사이트
         </div>
         <nav class="header_nav">   
@@ -37,25 +37,29 @@
         <aside><!-- 사이드 목록 -->
             <nav class="side_nav">
                 <ul>
-                    <li class="first">회원관련</li>
-                    <li>로그인</li>
-                    <li>회원가입</li>
-                    <li>아이디 찾기</li>
-                    <li>비밀번호 찾기</li>
+                    <li id="first">회원관련</li>
+                    <a href="login.html"><li id="loc">로그인</li></a><hr>
+                    <a href="register.html"><li id="rest">회원가입</li></a><hr>
+                    <li id="rest">아이디 찾기</li><hr>
+                    <li id="last">비밀번호 찾기</li>
                 </ul>
             </nav>
         </aside>
         <section> <!--- 로그인 page main-->
                 <article><!-- 현제 위치 출력-->
-                    <div>
-                        <p>로그인</p>
-                        <p>홈 > 회원관련 > 로그인</p>
+                    <div id="main_container">
+                        <p id="text1">로그인</p>
+                        <p id="text2">홈 > 회원관련 > 로그인</p>
                     </div>
-                    <div class="input_user_info">
-                    <form>
-                        <input type="text" placeholder="아이디" name="user_id"><br>
-                        <input type="password" placeholder="비밀번호" name="user_password">
-                    </form>
+                    <div id="mid_container">
+                        <p id="string">늘봄</p><p id="text_loc"> 방문을 환영합니다.</p>
+                    </div>
+                    <div id="input_container">
+                        <form>
+                            <input type="text" placeholder="아이디" name="user_id" class="in_id"><br>
+                            <input type="password" placeholder="비밀번호" name="user_password" class="in_">
+                            <button type="submit" id="login_btn">로그인</button>
+                        </form>
                 </div>
             </article>
         </section>
