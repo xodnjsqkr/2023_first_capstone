@@ -63,10 +63,6 @@ header
     position: relative;
     list-style-type: none;
 }
-.side_nav > ul > li
-{
-    padding-left: 10px;
-}
 .side_nav > ul #first
 {
     padding-right: 10px;
@@ -90,14 +86,14 @@ header
 }
 #rest
 {
-    margin-left:  1rem;
+    margin-left:  1.5rem;
     height: 30px;
     line-height: 32px;
     font-weight: bold;
 }
 #last
 {
-    margin-left: 15px;    
+    margin-left: 1.5rem;    
     height: 30px;
     line-height: 32px;
     font-weight: bold;
@@ -107,6 +103,7 @@ header
 section > article
 {
     margin-left: 232px;
+    height: 100px;
 }  
 
 #main_container
@@ -136,6 +133,7 @@ section > article
 {
     margin: 2rem 0 0 4rem;
     padding-left: 6rem;
+    width: 15rem;
 }
 #string
 {
