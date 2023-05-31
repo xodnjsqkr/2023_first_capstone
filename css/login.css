@@ -9,7 +9,7 @@ a
 }
 header
 {
-    height: 130px;
+    height: 8rem;
     width: auto;
     position: relative;
 }
@@ -30,15 +30,13 @@ header
     margin-left: 175px;
     font-size: 2.1rem;
 }
-.header_nav
-{
-    height: 10px;
-}
 .header_nav > ul
 {
+    padding-top: 1.3rem;
     float: right;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-bottom: -5px;
 }
 .header_nav >ul > li
 {
@@ -104,17 +102,19 @@ section > article
 {
     margin-left: 232px;
     height: 100px;
+    margin-top: -15px;
 }  
 
 #main_container
 {
     height: 158px;
-    margin-top: -15px;
-    margin-left: 2rem;
+    text-align: center;
     background-color: rgb(242,242,242);
 }
 #text1
 {
+    position: relative;
+
     height: 50px;
     font-weight: bold;
     font-size: 35px;
@@ -155,11 +155,45 @@ section > article
     position: relative;
     width: 80%;
     height: 18rem;
-    background-color: rgb(207,207,207);
+    background-color: rgb(227,227,227);
     top: -5rem;
     left: 10rem;
 }
-#input_container > input
+#in_id
 {
-    border-radius: 2px;
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+    height: 3rem;
+    width: 50%;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border : solid 1px black;
+    padding-left: 1rem;
+}
+#in_pw
+{
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+    height: 3rem;
+    width: 50%;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border : solid 1px black;
+    padding-left: 1rem;
+}
+#login_btn
+{
+    position: relative;
+    left: 12rem;
+    top: 2rem;
+    height: 6rem;
+    width: 10rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(18,111,178);
+    color: white;
 }
