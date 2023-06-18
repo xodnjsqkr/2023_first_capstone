@@ -22,27 +22,33 @@ header
 
 #header_img
 {
+    position: relative;
+    left: 2rem;
     float: left;
 }
 #header_text
 {
-    width: 500px;
+    position: relative;
+    top: 1.2rem;
+    left: 1rem;
+    width: 400px;
     margin-left: 175px;
     font-size: 2.1rem;
 }
+
 .header_nav > ul
 {
-    padding-top: 1.3rem;
     float: right;
+    padding-top: 2rem;
     list-style: none;
-    margin-top: 5px;
+    margin-top: -0.8rem;
     margin-bottom: -5px;
 }
 .header_nav >ul > li
 {
-    margin-right: 15px;
+    margin-right: 2rem;
     float: left;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .side_nav
@@ -50,15 +56,13 @@ header
     margin: -2px 0px 0px 4rem;
     width: 250px;
     border : solid 1px black;
-    display : table;
     border-collapse: collapse;
     float: left;
 }
 .side_nav > ul
 {
-    top: -16px;
+    margin-top: -0.1rem;
     padding-left: 0;
-    position: relative;
     list-style-type: none;
 }
 .side_nav > ul #first
@@ -95,7 +99,6 @@ header
     height: 30px;
     line-height: 32px;
     font-weight: bold;
-    margin-bottom: -20px;
 }
 
 section > article
@@ -114,28 +117,27 @@ section > article
 #text1
 {
     position: relative;
-
     height: 50px;
     font-weight: bold;
     font-size: 35px;
     text-align: center;
-    line-height: 8rem;
+    line-height: 6rem;
     margin-top: 1rem;
 }
 #text2
 {
     font-size: 20px;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
-#mid_container
+#mid
 {
-    margin: 2rem 0 0 4rem;
+    margin: -1rem 0 0 4rem;
     padding-left: 6rem;
-    width: 15rem;
+    width: 30%;
 }
-#string
+#strong
 {
     color: rgb(16,111,180);
     font-size: 2rem;
@@ -144,26 +146,23 @@ section > article
 }
 #text_loc
 {
-    position: relative;
+    margin: -4.3rem 0 0 4.5rem;
     font-size: 1.8rem;
-    top: -4.2rem;
     left: 4rem;
 }
 
 #input_container
 {
-    position: relative;
+    margin: 1rem 0 0 8rem;
     width: 80%;
-    height: 18rem;
+    height: 15rem;
     background-color: rgb(227,227,227);
-    top: -5rem;
+    top: 1rem;
     left: 10rem;
 }
 #in_id
 {
-    position: relative;
-    top: 4rem;
-    left: 5rem;
+    margin: 3rem 0 0 5rem;
     height: 3rem;
     width: 50%;
     font-size: 1.5rem;
@@ -173,8 +172,8 @@ section > article
 }
 #in_pw
 {
-    position: relative;
-    top: 5rem;
+    margin: 2.5rem 0 0 5rem;
+    top: 9rem;
     left: 5rem;
     height: 3rem;
     width: 50%;
@@ -185,9 +184,9 @@ section > article
 }
 #login_btn
 {
-    position: relative;
-    left: 12rem;
-    top: 2rem;
+    display: flex;
+    margin: -8rem 0 0 70%;
+    padding: 1.8rem 0 0 2.5rem;
     height: 6rem;
     width: 10rem;
     border-radius: 1rem;

@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
     <div id="links"> <!-- 최 상단 -->
-        <a href="login.html">로그인</a>
+        <a href="login.html">로그인</a>&nbsp;&nbsp;
         <a href="register.html">회원가입</a>
     </div><br>
     <hr>
@@ -30,18 +30,15 @@
         </nav>
     </header>
     <hr>
-    <nav>
-        <div class="info"></div>
-    </nav>
     <main>
         <aside><!-- 사이드 목록 -->
             <nav class="side_nav">
                 <ul>
                     <li id="first">회원관련</li>
                     <a href="login.html"><li id="loc">로그인</li></a><hr>
-                    <a href="register.html"><li id="rest">회원가입</li></a><hr>
-                    <li id="rest">아이디 찾기</li><hr>
-                    <li id="last">비밀번호 찾기</li>
+                    <a href="register.html"><li id="rest">아이디 찾기</li></a><hr>
+                    <li id="rest">비밀번호 찾기</li><hr>
+                    <a href="register.html"><li id="last">회원가입</li></a>
                 </ul>
             </nav>
         </aside>
@@ -51,19 +48,18 @@
                         <p id="text1">로그인</p>
                         <p id="text2">홈 > 회원관련 > 로그인</p>
                     </div>
-                    <div id="mid_container">
-                        <p id="string">늘봄</p><p id="text_loc"> 방문을 환영합니다.</p>
+                    <div id="mid">
+                        <p id="strong">늘봄</p><p id="text_loc"> 방문을 환영합니다.</p>
                     </div>
                     <div id="input_container">
-                        <form>
-                            <input type="text" placeholder="아이디" name="user_id" id="in_id"><br>
-                            <input type="password" placeholder="비밀번호" name="user_password" id="in_pw">
+                        <form name="frm">
+                            <input type="text" placeholder="아이디" name="user_id" id="in_id" required><br>
+                            <input type="password" placeholder="비밀번호" name="user_password" id="in_pw" required>
                             <button type="submit" id="login_btn">로그인</button>
                         </form>
                 </div>
             </article>
         </section>
     </main>
-    <footer></footer>
 </body>
 </html>
